@@ -18,6 +18,8 @@ delay(2000).then(logger); // Fulfilled after 2000ms
 delay(1000).then(logger); // Fulfilled after 1000ms
 delay(1500).then(logger); // Fulfilled after 1500ms
 
+// ===============================================================================
+
 // Задание 2
 
 const users = [
@@ -47,6 +49,8 @@ const toggleUserState = (allUsers, username) => {
 // The function should work like this
 toggleUserState(users, 'Mango').then(console.table);
 toggleUserState(users, 'Ajax').then(console.table).catch(console.table);
+
+// ================================================================================
 
 // Задание 3
 

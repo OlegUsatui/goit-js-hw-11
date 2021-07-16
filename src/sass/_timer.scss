@@ -1,0 +1,70 @@
+body {
+  background: #000000;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/12399/free-pumpkin-wallpaper-25771-26455-hd-wallpapers.jpg');
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  vertical-align: middle;
+  text-align: center;
+}
+
+section {
+  min-width: 616px;
+  max-width: 800px;
+  height: 157px;
+  margin: auto;
+  text-align: center;
+}
+button,
+input {
+  border-color: orange;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+button {
+  margin-left: 10px;
+  background-color: orange;
+}
+.timer {
+  padding: 0 16px;
+  background-color: transparent;
+  display: none;
+  padding-top: 20px;
+  justify-content: center;
+}
+
+.field,
+.label {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 1px;
+  height: 60px;
+  width: 60px;
+  border-radius: 60px;
+  background-color: transparent;
+  color: #fff;
+  display: grid;
+  align-items: center;
+  border: 1px solid orange;
+}
+
+.value {
+  font-size: 40px;
+}
+
+span {
+  display: inline-flex;
+  color: #fff;
+  font-weight: 500;
+}
